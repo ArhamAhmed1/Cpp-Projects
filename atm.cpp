@@ -61,7 +61,7 @@ int main()
     menu();
     cout<<"Choose your Option: ";
     cin>>option;
-    cout<<""<<endl;
+    system("cls");
     if (option == 1)
     {
         checkBal();
