@@ -80,6 +80,12 @@ int main()
         cout<<""<<endl;
         
     }
+    else if (option >= 4)
+    {
+        cout<<"Choose options between 1-4 only :)"<<endl;
+        cout<<""<<endl;
+        
+    }
     } while (option != 4);
     
     return 0;
